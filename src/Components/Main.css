@@ -1,0 +1,66 @@
+.wrapper {
+	display: grid;
+	grid-template-areas:
+		"sidebar main main main"
+		"sidebar main main main";
+	grid-template-columns: 15% auto;
+	grid-template-rows: 5% auto;
+	height: 100vh;
+}
+
+/*.headerPage {
+	grid-area: header;
+}*/
+
+.sidebar {
+	grid-area: sidebar;
+	background-color: #1a1c1d;
+}
+
+.sidebar span {
+	color: white;
+}
+
+.main {
+	grid-area: main;
+	width: 800px;
+	margin: auto;
+}
+
+.slider {
+	margin-bottom: 15px;
+}
+
+.pagination {
+	text-align: center;
+}
+
+.activeSideBarLink {
+	color: #1a1c1d;
+}
+
+.arrowClass {
+	display: block;
+	position: absolute;
+	top: 45%;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	padding: 0px;
+}
+
+.arrowLeftClass {
+	left: -30px;
+}
+
+.arrowRightClass {
+	right: -25px;
+}
+
+.filter {
+	margin-bottom: 10px;
+}
+
+.categoriesAll {
+	padding: 20px;
+}
